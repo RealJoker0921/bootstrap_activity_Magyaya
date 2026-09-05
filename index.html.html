@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet"href="bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet"href="bootstrap5/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap5/js/sweetalert2.all.min.js"></script>
+
+
+</head>
+
+
+<body>
+
+ <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
+
+    <div class="container">
+
+        <a class="navbar-brand text-primary" href="#home">
+            <span class="brand-icon border border-primary">
+                <i class="bi bi-controller">B</i>
+            </span>
+            Bootstrap5 Website
+        </a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">
+                        Features
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">
+                        Pricing
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">
+                        Reviews
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">
+                        Contact
+                    </a>
+                </li>
+
+                <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+
+                    <button id= "themeToggle"class=" btn btn-outline-secondary rounded-circle" type="button" aria-label="Toggle dark mode">
+                       
+                        <i id="themeIcon" class="bi bi-sun-fill fs-3"></i>
+                    </button>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+ </nav>
+
+
+
+ <header id="home" class="hero">
+
+    <div class="container hero-content">
+
+        <span class="hero-badge">
+            <i class="bi bi-controller me-1"></i>
+            Version 5.3.8
+        </span>
+
+        <h1>
+            Build fast, responsive sites with Bootstrap
+        </h1>
+
+        <p>
+            Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#pricing"
+               class="btn btn-light btn-lg">
+
+                <i class="bi bi-joystick me-2"></i>
+                Get Started
+
+            </a>
+
+            <a href="https://github.com/twbs/bootstrap/releases/download/v5.3.8/bootstrap-5.3.8-dist.zip"
+               class="btn btn-outline-light btn-lg">
+
+                <i class="bi bi-tags me-2"></i>
+                Download Bootstrap 5.3.8
+
+            </a>
+
+        </div>
+
+    </div>
+
+ </header>
+
+
+
+
+ <section id="features">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Powerful Features</h2>
+
+            <p>
+                Designed to give you full control over your layout and functionality.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+
+                <div class="feature-card">
+
+                    <div>
+                        <i class="bi bi-lightning-charge-fill"></i>
+                    </div>
+
+                    <h3>Dark Mode Ready</h3>
+
+                    <p>
+                        Built-in theme switcher using Bootstrap 5's native data-bs-theme attribute.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+
+                <div class="feature-card">
+
+                    <div >
+                        <i class="bi bi-people-fill"></i>
+                    </div>
+
+                    <h3>100% Mobile First</h3>
+
+                    <p>
+                        Fully fluid layout engineered to scale down seamlessly to mobile screens.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+
+                <div class="feature-card">
+
+                    <div>
+                        <i class="bi bi-trophy-fill"></i>
+                    </div>
+
+                    <h3>Interactive UI</h3>
+
+                    <p>
+                        Includes dynamic feedback toasts, sliders, and form validation logic.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+ </section>
+
+
+
+ <section id="pricing">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Flexible Pricing</h2>
+
+            <p>
+                Choose the plan that fits your business needs.
+            </p>
+
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+
+            <div class="col-sm-12 col-lg-4">
+
+                <div class="pricing-card">
+
+                    <h3>Starter</h3>
+
+                    <div class="price">
+                        ₱0
+                        <span>/mo</span>
+                    </div>
+
+                    <ul>
+
+                        <li>
+                            <i class="bi bi-check text-primary"></i>
+                            ✔️1 Project
+
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check text-primary"></i>
+                            ✔️Community Support
+                        </li>
+
+                        <li>
+                            <i class="bi bi-x text-secondary"></i>
+                            ✖️Custom Domain
+                        </li>
+
+                    </ul>
+
+                    <button
+                        type="button"
+                        class="btn btn-outline-primary w-100"
+                        onclick="choosePlan('Starter')">
+
+                        Start Free
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-12 col-lg-4">
+
+                <div class="pricing-card popular">
+
+                    <span class="popular-badge">
+                        Most Popular
+                    </span>
+
+                    <h3 class="text-primary">
+                        Pro Developer
+                    </h3>
+
+                    <div class="price">
+                        ₱49
+                        <span>/mo</span>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <i class="bi bi-check text-primary"></i>
+                            ✔️Unlimited Projects
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check text-primary"></i>
+                            ✔️Priority Support
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check text-primary"></i>
+                            ✔️Custom Domain
+                        </li>
+                    </ul>
+
+                    <button
+                        type="button"
+                        class="btn btn-primary w-100"
+                        onclick="choosePlan('Pro Developer')">
+
+                        Get Started Pro
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-12 col-lg-4">
+
+                <div class="pricing-card">
+
+                    <h3>Enterprise</h3>
+
+                    <div class="price">
+                        ₱109
+                        <span>/mo</span>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <i class="bi bi-check text-primary"></i>
+                            ✔️Dedicated Server
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check text-primary"></i>
+                            ✔️24/7 Phone Support
+                        </li>
+
+                        <li>
+                            <i class="bi bi-check text-primary"></i>
+                            ✔️SLA Guarantee
+                        </li>
+                    </ul>
+
+                    <button
+                        type="button"
+                        class="btn btn-outline-primary w-100"
+                        onclick="choosePlan('Enterprise')">
+
+                        Contact Sales
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+ </section>
+
+
+
+
+ <section id="testimonials">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>What People Say</h2>
+
+        </div>
+
+
+        <div
+            id="testimonialCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+
+                    <div class="testimonial-box">
+
+                        <p class="testimonial-quote">
+                            "This Bootstrap starter layout completely sped up my client workflow. Highly recommended!"
+                        </p>
+
+                        <div class="testimonial-name">
+                            Calvin Placio, BSIT-Network Technology Track
+                        </div>
+
+                        <div class="testimonial-role">
+                            Lead Developer, Code-Smart Solutions
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <div class="testimonial-box">
+
+                        <p class="testimonial-quote">
+                            "The dark mode toggle integration works like a charm. Extremely clean markup!"
+                        </p>
+
+                        <div class="testimonial-name">
+                            Harrold Evangelista, BSIT-Business Analytics Track
+                        </div>
+
+                        <div class="testimonial-role">
+                            UI/UX Designer
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+            </div>
+
+
+            <!-- PREVIOUS -->
+
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide="prev">
+
+                <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true">
+                </span>
+
+                <span class="visually-hidden">
+                    Previous
+                </span>
+
+            </button>
+
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide="next">
+
+                <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true">
+                </span>
+
+                <span class="visually-hidden">
+                    Next
+                </span>
+
+            </button>
+
+        </div>
+
+    </div>
+
+ </section>
+
+
+ <section id="contact">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Get In Touch</h2>
+
+            <p>
+                Fill out the form below to send us a live message.  
+            </p>
+
+        </div>
+
+
+        <form
+            id="contactForm"
+            class="contact-form"
+            novalidate>
+
+            <div class="row g-3">
+
+
+                <!-- FIRST NAME -->
+
+                <div class="col-sm-12 col-md-6">
+
+                    <label
+                        for="firstName"
+                        class="form-label">
+
+                        First Name
+
+                    </label>
+
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="firstName"
+                        name="firstName"
+                        placeholder="Enter your first name"
+                        required>
+
+                    <div class="invalid-feedback">
+                        Please enter your first name.
+                    </div>
+
+                </div>
+
+
+                <!-- LAST NAME -->
+
+                <div class="col-sm-12 col-md-6">
+
+                    <label
+                        for="lastName"
+                        class="form-label">
+
+                        Last Name
+
+                    </label>
+
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="lastName"
+                        name="lastName"
+                        placeholder="Enter your last name"
+                        required>
+
+                    <div class="invalid-feedback">
+                        Please enter your last name.
+                    </div>
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="col-12">
+
+                    <label
+                        for="email"
+                        class="form-label">
+
+                        Email Address
+
+                    </label>
+
+                    <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                        placeholder="you@example.com"
+                        required>
+
+                    <div class="invalid-feedback">
+                        Please enter a valid email address.
+                    </div>
+
+                </div>
+
+
+                <!-- MESSAGE -->
+
+                <div class="col-12">
+
+                    <label
+                        for="message"
+                        class="form-label">
+
+                        Message
+
+                    </label>
+
+                    <textarea
+                        class="form-control"
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message here..."
+                        required></textarea>
+
+                    <div class="invalid-feedback">
+                        Please enter your message.
+                    </div>
+
+                </div>
+
+
+                <!-- SUBMIT -->
+
+                <div class="col-12">
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary submit-btn">
+
+                        <i class="bi bi-send-fill me-2"></i>
+                        Send Message
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </form>
+
+    </div>
+
+ </section>
+
+ <footer>
+
+    <div class="container">
+
+        <div class="social-icons mb-3">
+
+            <a href="#"
+               aria-label="Facebook"
+               onclick="showSocialMessage(event, 'Facebook')">
+
+                <i class="bi bi-facebook"></i>
+
+            </a>
+
+            <a href="#"
+               aria-label="Twitter"
+               onclick="showSocialMessage(event, 'X')">
+
+                <i class="bi bi-twitter-x"></i>
+
+            </a>
+
+            <a href="#" aria-label="GitHub" onclick="showSocialMessage(event, 'GitHub')">
+                <i class="bi bi-github"></i>
+            </a>
+
+        </div>
+
+        <p class="mb-0">
+            &copy;2026 SirMags. Built with Bootstrap 5.3.
+        </p>
+
+    </div>
+
+ </footer>
+
+<script>
+    const themeToggle = document.getElementById("themeToggle");
+    const themeIcon = document.getElementById("themeIcon");
+
+    themeToggle.addEventListener("click", function () {
+
+        document.body.classList.toggle("dark");
+
+        if (document.body.classList.contains("dark")) {
+
+            // DARK MODE = MOON
+            themeIcon.className = "bi bi-moon-stars-fill";
+
+        } else {
+
+            // LIGHT MODE = SUN
+            themeIcon.className = "bi bi-sun-fill";
+
+        }
+
+    });
+</script>
+
+</body>
+</html>
